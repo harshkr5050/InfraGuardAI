@@ -1,0 +1,17 @@
+{
+  "name": "infraguard-ai-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI-powered predictive maintenance platform for public infrastructure",
+  "scripts": {
+    "dev": "vercel dev",
+    "db:init": "node scripts/init-db.mjs"
+  },
+  "dependencies": {
+    "mysql2": "^3.14.3"
+  },
+  "devDependencies": {
+    "vercel": "^48.1.0"
+  }
+}
